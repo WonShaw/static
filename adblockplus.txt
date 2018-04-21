@@ -1,0 +1,11 @@
+[Adblock Plus 2.0]
+! Checksum: yZxRtsuMuBzvq6lM4lbX8A
+! Homepage:https://www.jianshu.com/u/d1d4064c69c7
+! Version:1
+! Title:Adblock plus rule of Shaw
+! Expires: 100 days
+!------rules begin------
+static.fzdm.com/stat.js
+hm.baidu.com/hm.js
+static.fzdm.com/u.js
+manhua.fzdm.com###pjax-container>center
