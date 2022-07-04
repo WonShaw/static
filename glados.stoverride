@@ -1,0 +1,5 @@
+name: boombeach international version
+desc: play boombeach international version in CN
+
+rules:
+- DOMAIN,gamec.boombeachgame.com,Proxy
