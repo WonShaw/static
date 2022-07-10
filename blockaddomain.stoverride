@@ -9,6 +9,7 @@ rules:
 - DOMAIN,www.google-analytics.com,REJECT
 - DOMAIN,metrics.icloud.com,REJECT
 - DOMAIN,catdot.dianping.com,REJECT
+- DOMAIN,analytics.meituan.net,REJECT
 
 - DOMAIN-SUFFIX,cnzz.com,REJECT
 - DOMAIN-SUFFIX,doubleclick.net,REJECT
