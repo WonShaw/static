@@ -1,0 +1,6 @@
+name: block ad domain
+desc: block ad domain
+
+rules:
+- DOMAIN-SUFFIX,doubleclick.net,Reject
+- DOMAIN-KEYWORD,adservice.google.com,Reject
