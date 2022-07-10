@@ -11,6 +11,8 @@ rules:
 - DOMAIN-SUFFIX,cnzz.com,REJECT
 - DOMAIN-SUFFIX,doubleclick.net,REJECT
 - DOMAIN-SUFFIX,51.la,REJECT
+- DOMAIN-SUFFIX,beacon.qq.com,REJECT
+- DOMAIN-SUFFIX,trace.qq.com,REJECT
 
 - DOMAIN-KEYWORD,adservice.google.com,REJECT
 - DOMAIN-KEYWORD,firebaselogging-pa.googleapis.com,REJECT
