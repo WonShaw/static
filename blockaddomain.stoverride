@@ -5,3 +5,4 @@ rules:
 - DOMAIN-SUFFIX,doubleclick.net,REJECT
 - DOMAIN-KEYWORD,adservice.google.com,REJECT
 - DOMAIN-KEYWORD,firebaselogging-pa.googleapis.com,REJECT
+- DOMAIN-KEYWORD,click.baidu.com,REJECT
