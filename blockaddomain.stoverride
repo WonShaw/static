@@ -5,6 +5,7 @@ rules:
 - DOMAIN,collect.alipay.com,REJECT
 - DOMAIN,tracking.epicgames.com,REJECT
 - DOMAIN,cloudflareinsights.com,REJECT
+- DOMAIN,ada.baidu.com,REJECT
 
 - DOMAIN-SUFFIX,cnzz.com,REJECT
 - DOMAIN-SUFFIX,doubleclick.net,REJECT
