@@ -4,9 +4,11 @@ desc: block ad domain or tracker domain
 rules:
 - DOMAIN,collect.alipay.com,REJECT
 - DOMAIN,tracking.epicgames.com,REJECT
+- DOMAIN,cloudflareinsights.com,REJECT
 
 - DOMAIN-SUFFIX,cnzz.com,REJECT
-- DOMAIN-SUFFIX,doubleclick.net,REJECT
+- DOMAIN-SUFFIX,.doubleclick.net,REJECT
+- DOMAIN-SUFFIX,.51.la,REJECT
 
 - DOMAIN-KEYWORD,adservice.google.com,REJECT
 - DOMAIN-KEYWORD,firebaselogging-pa.googleapis.com,REJECT
