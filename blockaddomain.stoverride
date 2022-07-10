@@ -4,3 +4,4 @@ desc: block ad domain or tracker domain
 rules:
 - DOMAIN-SUFFIX,doubleclick.net,REJECT
 - DOMAIN-KEYWORD,adservice.google.com,REJECT
+- DOMAIN-KEYWORD,firebaselogging-pa.googleapis.com,REJECT
