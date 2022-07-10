@@ -1,5 +1,5 @@
-name: block ad domain
-desc: block ad domain
+name: ad domain blocker
+desc: block ad domain or tracker domain
 
 rules:
 - DOMAIN-SUFFIX,doubleclick.net,REJECT
