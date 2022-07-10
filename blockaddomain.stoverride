@@ -7,6 +7,7 @@ rules:
 - DOMAIN,cloudflareinsights.com,REJECT
 - DOMAIN,ada.baidu.com,REJECT
 - DOMAIN,www.google-analytics.com,REJECT
+- DOMAIN,metrics.icloud.com,REJECT
 
 - DOMAIN-SUFFIX,cnzz.com,REJECT
 - DOMAIN-SUFFIX,doubleclick.net,REJECT
