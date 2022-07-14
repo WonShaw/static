@@ -24,3 +24,5 @@ rules:
 - DOMAIN-KEYWORD,firebaselogging-pa.googleapis.com,REJECT
 - DOMAIN-KEYWORD,click.baidu.com,REJECT
 - DOMAIN-KEYWORD,report.meituan.net,REJECT
+
+- DOMAIN-SUFFIX,meituan.com,DIRECT
