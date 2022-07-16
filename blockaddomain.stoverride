@@ -18,6 +18,7 @@ rules:
 - DOMAIN-SUFFIX,51.la,REJECT
 - DOMAIN-SUFFIX,beacon.qq.com,REJECT
 - DOMAIN-SUFFIX,trace.qq.com,REJECT
+- DOMAIN-SUFFIX,jddebug.com,REJECT
 
 - DOMAIN-KEYWORD,adservice.google.com,REJECT
 - DOMAIN-KEYWORD,www.googleadservices.com,REJECT
