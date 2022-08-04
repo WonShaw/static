@@ -1,0 +1,14 @@
+http:
+  mitm:
+    - "dict.youdao.com"
+  script:
+    - match: https://dict.youdao.com/vip/union/yanxuan/status
+      name: youdao
+      type: response
+      requires-body: true
+      timeout: 10
+      
+script-providers:
+  youdao:
+    url: https://raw.githubusercontent.com/WonShaw/static/master/test.js
+    interval: 86400
