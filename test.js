@@ -1,6 +1,6 @@
 let obj = JSON.parse($response.body);
 
-obj.data.endTime = 1980950400000
-obj.data.purchase = true
+obj.vip.status = true
+obj.vip.permissions = ["ONE_MONTH", "AUTO_SUBSCRIPTION"]
 
 $done({body: JSON.stringify(obj)});
