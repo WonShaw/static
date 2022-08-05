@@ -1,8 +1,8 @@
 http:
   mitm:
-    - "dict.youdao.com"
+    - "www.youdao.com"
   script:
-    - match: https://dict.youdao.com/vip/union/yanxuan/status
+    - match: https://www.youdao.com/user/home
       name: youdao
       type: response
       requires-body: true
