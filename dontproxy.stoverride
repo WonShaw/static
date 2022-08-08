@@ -4,3 +4,4 @@ desc: Don't proxy these domains
 rules:
 - DOMAIN-SUFFIX,meituan.com,DIRECT
 - DOMAIN-SUFFIX,alicdn.com,DIRECT
+- DOMAIN-SUFFIX,alibaba-inc.com,DIRECT
