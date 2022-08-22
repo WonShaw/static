@@ -1,0 +1,6 @@
+name: hearthstone international version
+desc: play hearthstone international version in CN
+
+rules:
+- DOMAIN-SUFFIX,blizzard.com,Proxy
+- DOMAIN-SUFFIX,battle.net,Proxy
